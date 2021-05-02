@@ -60,6 +60,7 @@ class _NewTransactionState extends State<NewTransaction> {
         padding: EdgeInsets.all(10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.end,
+          mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             TextField(
               decoration: InputDecoration(labelText: 'Title'),
